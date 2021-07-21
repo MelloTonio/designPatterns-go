@@ -11,6 +11,11 @@ import (
 func main() {
 	// Acessamos a mesma instância apesar das chamadas serem de pacotes diferentes
 	first_instance.Increment()
+	first_instance.Increment()
+	first_instance.Increment()
+	
+	second_instance.Increment()
+	second_instance.Increment()
 	second_instance.Increment()
 
 	c := counter.GetOrCreateInstance()
