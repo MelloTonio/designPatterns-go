@@ -23,3 +23,13 @@ This pattern allows you to group objects in such a way that the end result is un
 ## Adapter Pattern
 
 This pattern allows you to adapt one object that follows "x" interface into a object that follows a "y" interface.
+
+## Strategy Pattern
+
+This pattern allows different implementatations of one specific strategy (that has a common interface to those who implement)
+
+## Chain Of Responsability Pattern
+
+This pattern allow you to link different methods into a "chain" then one method will call each other in sequence
+
+
